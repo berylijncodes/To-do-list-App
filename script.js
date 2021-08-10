@@ -22,9 +22,8 @@ function addTask(e) {
     timesButton.innerHTML ='<i class="fas fa-times"></i>'
      var checkButton = document.createElement("span")
      checkButton.innerHTML ='<i class="fas fa-check"></i>'
-
     listItems.appendChild(timesButton)
-  var trashButton = document.createElement("span")
+    var trashButton = document.createElement("span")
     trashButton.innerHTML = '<i class="fas fa-trash"></i>'
     listItems.appendChild(trashButton)
    
@@ -54,13 +53,13 @@ function removeAll () {
     
 }
 
-trashButton.addEventListener("click", deleteTask)
+// trashButton.addEventListener("click", deleteTask)
 
-function deleteTask(e) {
-   e.taskHolder.removeChild(listItems)
+// function deleteTask(e) {
+//    e.taskHolder.removeChild(listItems)
      
     
-}
+// }
 
 
 
