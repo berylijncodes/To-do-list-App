@@ -6,7 +6,7 @@ const mainList = document.getElementById("main-list")
 
    
    var clearBtn = document.getElementById("clear-btn")
-    var trashButton = document.createElement("span")
+    
 
 inputBtn.addEventListener("click", addTask)
 
@@ -24,7 +24,7 @@ function addTask(e) {
      checkButton.innerHTML ='<i class="fas fa-check"></i>'
 
     listItems.appendChild(timesButton)
-  
+  var trashButton = document.createElement("span")
     trashButton.innerHTML = '<i class="fas fa-trash"></i>'
     listItems.appendChild(trashButton)
    
